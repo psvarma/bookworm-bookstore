@@ -9,9 +9,6 @@ Welcome to the Bookworm Bookstore repository! This repository contains the sourc
 - [Technologies Used](#technologies-used)
 - [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Project Overview
 
