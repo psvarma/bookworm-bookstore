@@ -1,0 +1,160 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+img {
+    width:100%;
+    display: block;
+}
+/* Header */
+#header {
+    background: url('./images/main_banner.jpg') bottom center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 1.5rem;
+    min-height: 500px;
+}
+.navbar-brand{
+    max-width: 150px;
+}
+.heading {
+    max-width: 95%;
+    margin:1rem auto;
+}
+
+/* Top Sale */
+.topSaleBook {
+    background:#e9e6e1;
+}
+.bookSummary {
+    background: #97b5bf;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bookSummary h3 {
+    color: white;
+    width: 70%;
+  }
+.bookSummary h3 span {
+    font-size: 1rem;
+    text-align: right;
+    display: block;
+    margin-top: 1rem;
+  }
+/* Book listing */
+#booklisting {
+    background: #f4eee0;
+}
+.card {
+    background: none;
+    border: 0;
+}
+.card-img-top {
+    width:70%;
+    margin:0 auto;
+    max-width: 100%;
+}
+
+
+/* Latest */
+#latestBlock{}
+.newLaunch {
+    background:#d5cab8;
+}
+.newLaunch p {
+    text-align: center;
+    font-size: 1.5rem;
+    max-width: 71%;
+    margin: 0 auto 30px;
+  }
+.latest-book {
+    max-width: 200px;
+    margin: 0 auto;
+}
+.newsletter {
+    background: #dfc8a9 url('./images/books-bg.png') bottom center no-repeat;
+    height: 100%;
+    background-size: 58%;
+    min-height: 530px;
+}
+.newsletter-form {
+    max-width: 60%;
+    margin: 0 auto 10px;
+}
+#inputEmail4 {
+    background: none;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 2px solid #47484d;
+  }
+.form-control::placeholder {
+    text-align: center;
+    color:white;
+}
+.form-link {
+    color: #47484d;
+    font-weight: bold;
+}
+.form-link:hover{
+    color:black;
+}
+.btn-form {
+    background: #47484d;
+    border-radius: 0;
+    border: solid #47484d;
+}
+.btn-form:hover {
+    background: black;
+    border: solid black;
+}
+.link {
+    color: #47484d;
+    margin: 0 5px;
+    font-size: 1.5rem;
+}
+.link:hover {
+    color: black;
+}
+/* Footer */
+.footer-logo{
+    max-width: 200px;
+    margin:0 auto 30px;
+}
+.footer-text{
+    max-width: 300px;
+}
+.copyright {
+    background: #f8ebd8;
+    font-size: 0.9rem;
+}
+
+@media (max-width:991px) {
+    #navbarNavDropdown {
+        position: absolute;
+        background: white;
+        width: 100%;
+        top: 7rem;
+        left: 0;
+        padding: 1rem;
+      }
+}
+
+@media (max-width:767px){
+    .footer-text, .contact, .store {
+        max-width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width:550px) {
+    .bookSummary h3 {
+        width:100%;
+    }
+    .newLaunch p, .newsletter-form {
+        max-width: 100%;
+    }
+}
